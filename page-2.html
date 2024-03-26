@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>page-02</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("header_options");
+            if (x.className === "header_options") {
+                x.className += " responsive";
+            } else {
+                x.className = "header_options";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="navhead">
+                <h3>LOGO</h3>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="header_options" id="header_options">
+                <div>
+                    <a href="#">Feautres</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="startnow">
+                    <a href="#">Log In</a>
+                    <button class="login_btn">Start now</button>
+                </div>
+            </div>
+
+        </div>
+
+        <hr />
+    </header>
+    <!--Introduction section-->
+    <div class="introduction">
+        <div class="introduction_content">
+            <h1>Simplify your online shipping for
+                free this month</h1>
+            <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad,
+                nam no suscipit quaerendum.
+                At nam minimum ponderum. Est audiam animal molestiae te</p>
+            <div class="introduction_btn">
+                <button class="login_btn">Start free trial</button>
+                <button class="learn_btn">Learn more</button>
+            </div>
+        </div>
+
+    </div>
+    <!--Services Section-->
+    <div class="services">
+        <div>
+            <h1>Grow your business with better Shipping</h1>
+            <p style="text-align: center;">We help the world’s leading organizations follow their shipping</p>
+        </div>
+        <div class="services_content">
+            <div class="services_item">
+                <img src="./images/icon11.png" />
+                <h2>Shipping communication</h4>
+                    <p>At eripuit signiferumque sea, vel ad mucius molestie,
+                        cu labitur iuvaret vulputate sed.</p>
+                    <a href="#">Discover</a>
+            </div>
+            <div class="services_item">
+                <img src="./images/icon12.png" />
+                <h2>Marketing</h4>
+                    <p>At eripuit signiferumque sea, vel ad mucius molestie,
+                        cu labitur iuvaret vulputate sed.</p>
+                    <a href="#">Discover</a>
+            </div>
+            <div class="services_item">
+                <img src="./images/icon13.png" />
+                <h2>Logistic performance</h4>
+                    <p>At eripuit signiferumque sea, vel ad mucius molestie,
+                        cu labitur iuvaret vulputate sed.</p>
+                    <a href="#">Discover</a>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
